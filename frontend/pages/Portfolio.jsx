@@ -12,7 +12,7 @@ const Portfolio = () => {
   const navigate = useNavigate();
 
   // Fetch categories from your database
-  const categories = ["Birthday", "UI/UX", "Graphic Design", "Photography", "3D Modeling", "Branding"];
+  const categories = ["Birthday", "Graduation", "Preshoots", "Wedding", "ModelShoots", "Events"];
 
   const handleImageLoad = (event, id) => {
     const { naturalWidth, naturalHeight } = event.target;
