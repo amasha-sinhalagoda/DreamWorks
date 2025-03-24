@@ -26,7 +26,7 @@ const navbarColor = location.pathname === '/' ? 'bg-transparent' : 'bg-black';
         <img src="src/assets/web_logo.png" alt="logo" className='w-24'/>
         <ul className='hidden md:flex gap-7 text-white'>
           <Link to="/" className=' text-white hover:text-amber-500'>Home</Link>
-          
+          <Link to="/dashboard" className=' text-white hover:text-amber-500'>Dashboard</Link>
           
           <Link to='/gallery' className=' text-white hover:text-amber-500'>Gallery</Link>
           {/*<a href='#Gallery' className=' text-white hover:text-amber-500'>Gallery</a>*/}
